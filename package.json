@@ -1,0 +1,36 @@
+{
+  "name": "demon-slayer-light-theme",
+  "displayName": "Demon-Slayer-Light-Theme",
+  "description": "Light Theme based on the Anime Demon Slayer",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "publisher": "TeteDeCactus",
+  "author": {
+    "name": "OLabLac"
+  },
+  "repository": "https://github.com/tetedecactus/VScode-Theme",
+ "license": "MIT",
+ "homepage": "",
+ "keywords": [
+    "vs code light theme",
+    "anime theme",
+    "demon slayer theme",
+    "manga demon slayer",
+    "light"
+ ],
+  "categories": [
+    "Themes"
+  ],
+  "icon": "demon-slayer.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Demon-Slayer-Light-Theme",
+        "uiTheme": "vs",
+        "path": "./themes/Demon-Slayer-Light-Theme-color-theme.json"
+      }
+    ]
+  }
+}
